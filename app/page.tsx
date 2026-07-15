@@ -41,13 +41,13 @@ export default function Home() {
         style={{
           width: "100%",
           padding: "12px",
-          marginTop: "20px",
+          margin: "20px 0",
           borderRadius: "8px",
           border: "none",
         }}
       />
 
-      <h3 style={{ marginTop: "35px" }}>Categories</h3>
+      <h3>Categories</h3>
 
       <div
         style={{
@@ -64,67 +64,12 @@ export default function Home() {
         <button>🚗 Automotive</button>
       </div>
 
+      <h3 style={{ marginTop: "40px" }}>Featured Products</h3>
+
       <div
         style={{
-          marginTop: "40px",
-          padding: "20px",
-          background: "#1e293b",
-          borderRadius: "12px",
+          display: "grid",
+          gridTemplateColumns: "repeat(2,1fr)",
+          gap: "15px",
         }}
-<h3 style={{ marginTop: "40px" }}>Featured Products</h3>
-
-<div
-  style={{
-    display: "grid",
-    gridTemplateColumns: "repeat(2,1fr)",
-    gap: "15px",
-    marginTop: "20px",
-  }}
->
-  <div style={{background:"#1e293b",padding:"15px",borderRadius:"12px"}}>
-    <h4>☕ Smart Thermos</h4>
-    <p>PKR 4,599</p>
-    <p>⭐⭐⭐⭐⭐</p>
-    <button>🛒 Add to Cart</button>
-  </div>
-
-  <div style={{background:"#1e293b",padding:"15px",borderRadius:"12px"}}>
-    <h4>🥤 Electric Shake Cup</h4>
-    <p>PKR 2,500</p>
-    <p>⭐⭐⭐⭐⭐</p>
-    <button>🛒 Add to Cart</button>
-  </div>
-
-  <div style={{background:"#1e293b",padding:"15px",borderRadius:"12px"}}>
-    <h4>🌡️ Coffee Cup</h4>
-    <p>PKR 1,399</p>
-    <p>⭐⭐⭐⭐</p>
-    <button>🛒 Add to Cart</button>
-  </div>
-
-  <div style={{background:"#1e293b",padding:"15px",borderRadius:"12px"}}>
-    <h4>💄 Makeup Bag</h4>
-    <p>PKR 1,500</p>
-    <p>⭐⭐⭐⭐⭐</p>
-    <button>🛒 Add to Cart</button>
-  </div>
-</div>      >
-        <h3>Why Choose Nanji's?</h3>
-        <p>🚚 Free Delivery</p>
-        <p>💵 Cash on Delivery (COD)</p>
-        <p>🔒 Secure Payments</p>
-        <p>↩️ Easy Returns</p>
-      </div>
-
-      <footer
-        style={{
-          marginTop: "50px",
-          textAlign: "center",
-          color: "#94a3b8",
-        }}
-      >
-        © 2026 Nanji's. All Rights Reserved.
-      </footer>
-    </main>
-  );
-}
+     
