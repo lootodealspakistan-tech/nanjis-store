@@ -18,12 +18,13 @@ export default function Home() {
         }}
       >
         <h1 style={{ color: "#38bdf8" }}>🛍️ Nanji's</h1>
+
         <button
           style={{
             background: "#38bdf8",
             color: "#000",
-            padding: "10px 18px",
             border: "none",
+            padding: "10px 16px",
             borderRadius: "8px",
             fontWeight: "bold",
           }}
@@ -41,12 +42,12 @@ export default function Home() {
         style={{
           width: "100%",
           padding: "12px",
-          margin: "20px 0",
           borderRadius: "8px",
           border: "none",
+          marginTop: "20px",
+          marginBottom: "20px",
         }}
       />
-
       <h3>Categories</h3>
 
       <div
@@ -72,4 +73,55 @@ export default function Home() {
           gridTemplateColumns: "repeat(2,1fr)",
           gap: "15px",
         }}
-     
+      >
+        <div style={{ background: "#1e293b", padding: "15px", borderRadius: "12px" }}>
+          <h4>🥤 Electric Shake Cup</h4>
+          <p>PKR 2,500</p>
+          <button>🛒 Add to Cart</button>
+        </div>
+
+        <div style={{ background: "#1e293b", padding: "15px", borderRadius: "12px" }}>
+          <h4>☕ Smart Thermos</h4>
+          <p>PKR 4,599</p>
+          <button>🛒 Add to Cart</button>
+        </div>
+
+        <div style={{ background: "#1e293b", padding: "15px", borderRadius: "12px" }}>
+          <h4>🌡️ Coffee Cup</h4>
+          <p>PKR 1,399</p>
+          <button>🛒 Add to Cart</button>
+        </div>
+
+        <div style={{ background: "#1e293b", padding: "15px", borderRadius: "12px" }}>
+          <h4>💄 Makeup Bag</h4>
+          <p>PKR 1,500</p>
+          <button>🛒 Add to Cart</button>
+        </div>
+      </div>
+      <div
+        style={{
+          marginTop: "40px",
+          padding: "20px",
+          background: "#1e293b",
+          borderRadius: "12px",
+        }}
+      >
+        <h3>Why Choose Nanji's?</h3>
+        <p>🚚 Free Delivery</p>
+        <p>💵 Cash on Delivery (COD)</p>
+        <p>🔒 Secure Payments</p>
+        <p>↩️ Easy Returns</p>
+      </div>
+
+      <footer
+        style={{
+          marginTop: "50px",
+          textAlign: "center",
+          color: "#94a3b8",
+        }}
+      >
+        © 2026 Nanji's. All Rights Reserved.
+      </footer>
+    </main>
+  );
+}
