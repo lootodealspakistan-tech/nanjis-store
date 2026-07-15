@@ -71,7 +71,44 @@ export default function Home() {
           background: "#1e293b",
           borderRadius: "12px",
         }}
-      >
+<h3 style={{ marginTop: "40px" }}>Featured Products</h3>
+
+<div
+  style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(2,1fr)",
+    gap: "15px",
+    marginTop: "20px",
+  }}
+>
+  <div style={{background:"#1e293b",padding:"15px",borderRadius:"12px"}}>
+    <h4>☕ Smart Thermos</h4>
+    <p>PKR 4,599</p>
+    <p>⭐⭐⭐⭐⭐</p>
+    <button>🛒 Add to Cart</button>
+  </div>
+
+  <div style={{background:"#1e293b",padding:"15px",borderRadius:"12px"}}>
+    <h4>🥤 Electric Shake Cup</h4>
+    <p>PKR 2,500</p>
+    <p>⭐⭐⭐⭐⭐</p>
+    <button>🛒 Add to Cart</button>
+  </div>
+
+  <div style={{background:"#1e293b",padding:"15px",borderRadius:"12px"}}>
+    <h4>🌡️ Coffee Cup</h4>
+    <p>PKR 1,399</p>
+    <p>⭐⭐⭐⭐</p>
+    <button>🛒 Add to Cart</button>
+  </div>
+
+  <div style={{background:"#1e293b",padding:"15px",borderRadius:"12px"}}>
+    <h4>💄 Makeup Bag</h4>
+    <p>PKR 1,500</p>
+    <p>⭐⭐⭐⭐⭐</p>
+    <button>🛒 Add to Cart</button>
+  </div>
+</div>      >
         <h3>Why Choose Nanji's?</h3>
         <p>🚚 Free Delivery</p>
         <p>💵 Cash on Delivery (COD)</p>
